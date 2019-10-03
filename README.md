@@ -5,3 +5,7 @@
 4. - Thêm lớp mói tên Dongvat với 1 phương thức là Keu() và 1 thuộc tính là MauLong
    - Thêm 2 lớp kế thừa lớp Dongvat là lớp Cho và Meo Định nghĩa lại phương thức Keu()
 5. Cập nhật Readme và dự án đến Github
+6. Chỉnh sửa lớp Cho và Meo
+   - Lớp Cho: Hiển thị chuỗi: "Gâu gâu Tôi là chó lông màu " + MauLong
+   - Lớp Meo: Hiển thị chuỗi: "Meo meo Tôi là mèo lông màu " + MauLong
+7. Cập nhật lên Github, cập nhật Readme
