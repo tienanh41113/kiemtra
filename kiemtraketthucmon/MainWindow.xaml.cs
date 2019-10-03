@@ -24,5 +24,15 @@ namespace kiemtraketthucmon
         {
             InitializeComponent();
         }
+
+        private void btn_ok_Click(object sender, RoutedEventArgs e)
+        {
+            Cho concho = new Cho();
+            concho.sound = "Gâu Gâu";
+            concho.OK();
+            Meo conmeo = new Meo();
+            conmeo.sound = "Meow Meow";
+            conmeo.OK();
+        }
     }
 }
