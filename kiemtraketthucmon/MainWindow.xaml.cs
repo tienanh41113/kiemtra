@@ -34,5 +34,10 @@ namespace kiemtraketthucmon
             conmeo.sound = "Meow Meow";
             conmeo.OK();
         }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
