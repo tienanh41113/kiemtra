@@ -10,7 +10,6 @@ namespace kiemtraketthucmon
     class DongVat
     {
         private string Keu;
-        public void Maulong() { }
         public string sound
         {
             get { return Keu; }
@@ -20,13 +19,25 @@ namespace kiemtraketthucmon
         {
             this.Keu = tKeu;
         }
-         public DongVat() { }
-         public virtual void OK()
+        public DongVat() { }
+        private string Maulong;
+        public string Color
         {
-            if (sound.Equals("Gâu Gâu"))
-                MessageBox.Show("Chó kêu: " + this.sound);
-            else if (sound.Equals("Meow Meow"))
-                MessageBox.Show("Mèo kêu: " + this.sound);
+            get
+            {
+                return Maulong;
+            }
+            set
+            {
+                Maulong = value;
+            }
+        }
+        public virtual void OK()
+        {
+            if (sound.Equals("Gâu Gâu") && (Color.Equals("Vàng")))
+                MessageBox.Show("Chó kêu: " + this.sound + "  Tôi là chó lông màu: " + this.Color);
+            else if (sound.Equals("Meow Meow") && (Color.Equals("Đen")))
+                MessageBox.Show("Mèo kêu: " + this.sound + "  Tôi là mèo lông màu: " + this.Color);
         }
     }
 }

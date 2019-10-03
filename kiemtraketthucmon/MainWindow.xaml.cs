@@ -29,9 +29,11 @@ namespace kiemtraketthucmon
         {
             Cho concho = new Cho();
             concho.sound = "Gâu Gâu";
+            concho.Color = "Vàng";
             concho.OK();
             Meo conmeo = new Meo();
             conmeo.sound = "Meow Meow";
+            conmeo.Color = "Đen";
             conmeo.OK();
         }
 
